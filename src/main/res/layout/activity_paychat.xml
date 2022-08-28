@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="209dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/totalAmount_TextView"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:fontFamily="@font/font1"
+            android:layout_above="@+id/balanceAmount_TextView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="-57dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/balanceAmount_TextView"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:layout_alignParentTop="true"
+            android:fontFamily="@font/font1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="59dp"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/pay_Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="39dp"
+            android:fontFamily="@font/font1"
+            android:background="#F7C96A"
+            android:text="결제" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <ScrollView
+            android:id="@+id/scrollview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/showText_TextView"
+                android:layout_width="match_parent"
+                android:fontFamily="@font/font1"
+                android:layout_height="match_parent"
+
+                android:textSize="20sp" />
+            <!-- 자동스크롤. 폰트 -->
+
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/editText_massage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:paddingLeft="10dp"
+            android:ems="10"
+            android:hint="금액을 입력해주세요"
+            android:inputType="number"
+            android:fontFamily="@font/font1"
+            android:singleLine="false" />
+
+        <Button
+            android:id="@+id/Button_send"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:fontFamily="@font/font1"
+            android:background="#F7C96A"
+            android:text="전송" />
+    </LinearLayout>
+
+</LinearLayout>

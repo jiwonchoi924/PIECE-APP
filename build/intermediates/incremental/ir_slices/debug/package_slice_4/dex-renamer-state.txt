@@ -1,0 +1,4 @@
+#Mon Oct 14 15:06:46 KST 2019
+base.0=C\:\\Users\\Jiwon Choi\\Desktop\\2018-2\\PBL\\PIECErealfinal\\PIECE\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\4
+path.0=classes.dex
+renamed.0=classes.dex

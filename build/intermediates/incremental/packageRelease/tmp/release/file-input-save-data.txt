@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Mon Oct 14 15:19:16 KST 2019
+0.baseType=DIRECTORY
+0.base=C\:\\Users\\Jiwon Choi\\Desktop\\2018-2\\PBL\\PIECErealfinal\\PIECE\\app\\build\\intermediates\\transforms\\dexMerger\\release\\0
+0.path=classes.dex
+0.set=DEX
+count=1

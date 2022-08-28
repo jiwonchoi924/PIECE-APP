@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Jiwon Choi\\Desktop\\2018-2\\PBL\\PIECErealfinal\\PIECE\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v14\\values-v14.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Jiwon Choi\\Desktop\\2018-2\\PBL\\PIECErealfinal\\PIECE\\app\\src\\main\\res\\values-v14\\styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "17",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "240"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "278"
+                    }
+                }
+            ]
+        }
+    ]
+}
